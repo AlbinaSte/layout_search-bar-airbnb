@@ -13,11 +13,12 @@
 }
 
 .form {
+  margin-top: 20px;
   width: 100%;
 }
 
 body {
-  margin: 0;
+  margin: 0 8px;
   font-family: Avenir, sans-serif;
   font-weight: 300;
 }
@@ -38,26 +39,18 @@ body {
 .big__input {
   height: 70px;
   line-height: 22px;
-  background-position: 24px center;
+  background-position: 26px center;
   background-size: 19px 19px;
-  margin-top: 20px;
-  width: 900px;
-  padding-left: 60px;
+  padding-left: 62px;
   font-size: 16px;
-  margin-left: 48px;
-  margin-bottom: 20px;
 }
 
 .small__input {
-  margin-top: 20px;
   height: 42px;
   line-height: 20px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
-  width: 427px;
-  background-position: 12px center;
+  background-position: 13px 15px;
   background-size: 11px 11px;
-  margin-left: 48px;
-  padding-left: 60px;
+  padding: 11px 33px;
   font-size: 14px;
 }
 
@@ -73,16 +66,11 @@ body {
 }
 
 .input::placeholder {
-  color: rgba(113, 133, 153, 1);
+  color: #3d4e61;
   font-weight: 300;
 }
 
 .input:focus::placeholder {
   color: rgba(61, 78, 97, 1);
   font-weight: 700;
-}
-
-.form[data-qa='big'] {
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
