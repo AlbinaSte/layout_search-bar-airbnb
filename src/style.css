@@ -42,7 +42,6 @@ body {
   background-position: 26px center;
   background-size: 19px 19px;
   padding-left: 62px;
-  padding-right: 680px;
   font-size: 16px;
 }
 
@@ -63,7 +62,7 @@ body {
   font-family: Avenir, sans-serif;
   font-weight: 700;
   outline: none;
-  border: 1px solid  rgba(113, 133, 153, 1);
+  border: 1px solid rgba(225, 231, 237, 1);
 }
 
 .input::placeholder {
